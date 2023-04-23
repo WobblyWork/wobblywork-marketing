@@ -42,10 +42,10 @@ export const Navbar: React.FC = () => {
             `}
           >
             <div className="flex flex-col flex-wrap md:flex-row md:space-x-6 px-4 py-2 md:px-0 lg:py-0 text-center ">
-              <NavItem title="About us" href="/about" />
+            <NavItem title="Product" href="/product" />
+              <NavItem title="About" href="/about" />
               <NavItem title="Support" href="/support" />
               <NavItem title="Pricing" href="/pricing" />
-              <NavItem title="Product" href="/product" />
             </div>
             <div className="my-2 md:my-0 md:ml-10 flex justify-center">
               <Link

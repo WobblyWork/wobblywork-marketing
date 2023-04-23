@@ -1,6 +1,19 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'WobblyWork',
+  description: 'Testing description',
+  icons: {
+    icon:'/favicon.ico',
+},
+};
+
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

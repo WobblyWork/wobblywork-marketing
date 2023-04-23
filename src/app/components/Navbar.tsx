@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
               className="focus:outline-none"
               onClick={() => setIsOpen(!isOpen)}
             >
-              <FaBars />
+              <FaBars />test
             </button>
           </div>
           <div
@@ -42,8 +42,7 @@ export const Navbar: React.FC = () => {
             `}
           >
             <div className="flex flex-col flex-wrap md:flex-row md:space-x-6 px-4 py-2 md:px-0 lg:py-0 text-center ">
-            <NavItem title="Product" href="/product" />
-              <NavItem title="About" href="/about" />
+              <NavItem title="Product" href="/product" />
               <NavItem title="Support" href="/support" />
               <NavItem title="Pricing" href="/pricing" />
             </div>
@@ -52,7 +51,7 @@ export const Navbar: React.FC = () => {
                 className="bg-wobbly-blue text-white px-3 py-1 rounded hover:bg-wobbly-blue-dark"
                 href={"/signup"}
               >
-                Sign Up
+                Login / Sign Up
               </Link>
             </div>
           </div>

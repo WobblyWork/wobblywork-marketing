@@ -1,6 +1,7 @@
 import { Navbar } from "./components/Navbar";
 import "./globals.css";
 import { Rosario } from "next/font/google";
+import {Footer } from "./components/Footer";
 
 const rosario = Rosario({
   variable: "--font-rosario",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className="dark:bg-gray-900 dark:text-gray-100">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

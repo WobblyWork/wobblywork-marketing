@@ -19,15 +19,14 @@ const FooterItem: React.FC<FooterItemProps> = ({ title, href }) => (
 );
 
 export const Footer: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-white shadow dark:bg-gray-950 ">
       <div className="container mx-auto px-6 py-3">
         <div className="flex flex-wrap justify-center items-center">
           <div className="flex flex-row flex-wrap md:flex-column md:space-x-6 px-4 py-2 md:px-0 lg:py-0 text-center ">
-            <FooterItem title="Privacy" href="/privacy" />
-            <FooterItem title="Terms" href="/terms" />
+            <FooterItem title="Privacy" href="https://app.termly.io/document/privacy-policy/93fd40a1-18cd-4f5a-b394-362c290b4d33" />
+            <FooterItem title="Terms of Use" href="https://app.termly.io/document/terms-and-conditions/8ad03f79-e4bd-492c-975c-7cb0366bc1ad" />
             <FooterItem title="About" href="/about" />
           </div>
 

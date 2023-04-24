@@ -47,15 +47,15 @@ export default function Product() {
           <ul className={ulFormat}>
             <li>
               The irresistible smell of a <Emphasis>Freshly baked</Emphasis> new
-              message or idea. It's more energising to solve someone's
-              latest problem than grinding through work expected days ago, more fun to
-              think about your new idea than the work required to
-              deliver value from last month's brainwave.
+              message or idea. It's more energising to solve someone's latest
+              problem than grinding through work expected days ago, more fun to
+              think about your new idea than the work required to deliver value
+              from last month's brainwave.
             </li>
             <li>
-              Without a trusted way of easily capturing tasks and keeping them
-              visible, they become <Emphasis>Write Only Memory</Emphasis>, so easily forgotten
-              when you're choosing what to work on today.
+              Without a trusted, easy way to capture tasks and keep them
+              visible, they become <Emphasis>Write Only Memory</Emphasis>, so
+              forgotten when you're choosing what to work on today.
             </li>
             <li>
               Sometimes, you worry more about{" "}
@@ -77,69 +77,53 @@ export default function Product() {
             </li> */}
           </ul>
           <p className={subTitleFormat}>You bear the impact</p>
-          <ul className="list-none list-inside">
+          <ul className={ulFormat}>
             <li>
-              <span className={inlineTitleFormat}>The weekend worrier.</span>{" "}
-              You worry about work that hasn't got done, during evenings and the
-              weekend. Imagine how more relaxing and enjoyable time would be,
-              resting or with friends and family, if you trusted that your work
-              systems help you do your best work.
+              Too often,{" "}
+              <Emphasis>when you're not working, you're worrying</Emphasis>.
+              Imagine how more relaxing and enjoyable time would be, resting or
+              with friends and family, if you trusted that your work systems
+              help you do your best work.
             </li>
             <li>
-              <span className={inlineTitleFormat}>The right stuff</span>.
-              You&rsquo;re never going to make perfect choices about what to
-              work on, but even improving a little could help you achieve more
-              in your working hours, enabling a healthier work-life balance.
+              We can't always make perfect choices about what to work on, but
+              even improving those decisions a little could help you achieve
+              more in your working hours, enabling a healthier work-life
+              balance.
             </li>
           </ul>
           <p className={subTitleFormat}>How WobblyWork can help</p>
-          <ul className="list-none list-inside">
+          <ul className={ulFormat}>
             <li>
-              <span className={inlineTitleFormat}>Beautiful views.</span> Rather
-              than hiding tasks away in different tools, WobblyWork allows you
-              to view everything, all the same time. Every single task in one
-              single view. People find views beautiful. Looking down over a vast
-              landscape brings us calm, and we believe the same of our global
-              view, where you visualise everything, all at once, tamed. Then a
-              couple of clicks shows you just the things you&rsquo;re working on
-              today, or with a specific colleague, or for a particular
-              project.&nbsp;
+              People perceive <Emphasis>beauty in views</Emphasis> across a vast
+              landscape, seeing everything, all at once. We believe the same of
+              WobblyWork's global view, seeing every single task, tamed. Then a
+              couple of clicks shows you just what you're working on today, or
+              with a specific colleague, or for a particular project.;
             </li>
             <li>
-              <span className={inlineTitleFormat}>Click and connect.</span>{" "}
-              We&rsquo;ve tried to make it as simple as possible to create
-              tasks, connected to the context of other tasks, so it&rsquo;s
-              easier to choose what to work on. Create a task - click.&nbsp;
-              Assign someone the task -&nbsp; click. Hide the&nbsp; task until
-              the right date - click. Completed it - click.
+              We've tried to make it as simple as possible to create tasks,{" "}
+              <Emphasis>click and connect</Emphasis> to the context of other
+              tasks, so it's easier to choose what to work on. Create a task -
+              click. Assign someone the task - click. Hide until the right date
+              - click. Completed it - click.
             </li>
             <li>
-              <span className={inlineTitleFormat}>Divide and conquer.</span>{" "}
-              WobblyWork is designed to manage the smallest task, to a larger
+              WobblyWork is designed to manage the smallest task, to a large
               project. Tasks are organised into trees, with unlimited depth.
-              You&rsquo;re not constrained to tasks and sub-tasks, which allows
-              you to always simplify getting something done, by breaking it
-              down. If you get stuck with a task, and find yourself tempted to
-              procrastinate, don&rsquo;t attempt to complete the task, just
-              think how you can divide it into smaller chunks. Eventually
-              you&rsquo;ll realise you&rsquo;ve got pieces that aren&rsquo;t so
-              intimidating. Do one, and you&rsquo;re away.
-            </li>
-            <li>
-              <span className={inlineTitleFormat}>The data of doing</span>.
-              Because you&rsquo;ve captured all your tasks in WobblyWork, you
-              have the data you need to analyse your day or week. How many tasks
-              were done according to plan? How could you improve your discipline
-              next time?
+              You're not constrained to tasks and sub-tasks, which allows you to
+              always simplify getting something done, by breaking it down. If
+              you get stuck with a task, and find yourself tempted to
+              procrastinate, <Emphasis>divide and conquer</Emphasis>, break it
+              into small chunks that aren't so intimidating. Do one, and you're
+              away.
             </li>
           </ul>
           <p className={paragraphFormat}>
-            WobblyWork will be free to try. Please register your interest in
-            being an early tester, if you&rsquo;re kind enough to help us build
-            the right tool for you.
+            WobblyWork will be free to try. Eventually we expect to charge a
+            modest monthly subscription, but for now, feedback from users is
+            more valuable to us than revenue.
           </p>
-
-          <h3 className={subTitleFormat + " mt-8"}>Register Your Interest:</h3>
         </div>
       </div>
     </main>
